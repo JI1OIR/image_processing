@@ -20,13 +20,16 @@ IMG = ORG>128;  
 imagesc(IMG); colormap(gray); colorbar;  axis image;  
 
 この処理の結果を図２に示す．
+
 ![原画像](https://github.com/JI1OIR/image_processing/blob/master/02/02im1.png?raw=true)  
 
 図２  ２階調画像
 
-![原画像](https://github.com/JI1OIR/image_processing/blob/master/02/02im2.png?raw=true)  
+![原画像](https://github.com/JI1OIR/image_processing/blob/master/02/02im2.png?raw=true)  
+
 図３  
 
 ![原画像](https://github.com/JI1OIR/image_processing/blob/master/02/02im3.png?raw=true)  
+
 図４    
   
