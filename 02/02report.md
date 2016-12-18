@@ -10,8 +10,9 @@ ORG = rgb2gray(ORG); colormap(gray); colorbar;
 imagesc(ORG); axis image; % 画像の表示  
 その結果を図１に示す．  
 ![原画像](https://github.com/JI1OIR/image_processing/blob/master/02/02o.png?raw=true)  
-図１  グレースケール
 
+図１ グレースケール
+  
   
 続いて，２階調画像を生成する．以下の処理を行った．  
 IMG = ORG>128;  
