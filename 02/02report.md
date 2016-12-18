@@ -15,11 +15,15 @@ imagesc(ORG); axis image; % 画像の表示  
   
   
 続いて，２階調画像を生成する．以下の処理を行った．  
+
 IMG = ORG>128;  
 imagesc(IMG); colormap(gray); colorbar;  axis image;  
+
 この処理の結果を図２に示す．
 ![原画像](https://github.com/JI1OIR/image_processing/blob/master/02/02im1.png?raw=true)  
+
 図２  ２階調画像
+
 ![原画像](https://github.com/JI1OIR/image_processing/blob/master/02/02im2.png?raw=true)  
 図３  
 
