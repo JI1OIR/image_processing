@@ -24,6 +24,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 ![原画像](https://github.com/JI1OIR/image_processing/blob/master/02/02im1.png?raw=true)  
 
 図２  ２階調画像
+
 ４階調画像を生成する．以下の処理を行った．  
 
 IMG0 = ORG>64;  
